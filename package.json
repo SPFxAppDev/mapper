@@ -1,0 +1,38 @@
+{
+  "name": "@spfxappdev/mapper",
+  "version": "1.0.0-beta.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPFxAppDev/mapper.git"
+  },
+  "keywords": [
+    "jslogger",
+    "console logger",
+    "logger",
+    "javascript logging",
+    "logging",
+    "console.log",
+    "typescript logger"
+  ],
+  "author": "Seryoga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SPFxAppDev/mapper/issues"
+  },
+  "homepage": "https://github.com/SPFxAppDev/console-logger#readme",
+  "dependencies": {
+    "@spfxappdev/utility": "^1.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
