@@ -1,4 +1,3 @@
-import { getDeepOrDefault, isFunction, isset } from '@spfxappdev/utility';
 import { mapper, toClass, MapperMetadata, toPlain  } from '../../src';
 import { mapperMetadataStore  } from '../../src/store';
 
@@ -123,7 +122,6 @@ const userClass = toClass(UserClass, user);
 
 const users = [user, user2];
 
-//TODO Testen mit Array ==> toClass<UserClass[]>(UserClass[], users)
 const userCollection = toClass(UserClass, users)
 
 console.log(userClass);

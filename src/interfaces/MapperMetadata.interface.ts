@@ -6,7 +6,6 @@ export interface MapperMetadata {
     /**
      * The property name this metadata belongs to on the target (property).
      *
-     * Note: If the decorator is applied to a class the propertyName will be undefined.
      */
     propertyName: string;
   

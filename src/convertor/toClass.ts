@@ -1,4 +1,4 @@
-import { getDeepOrDefault, isFunction, isset } from '@spfxappdev/utility';
+import { getDeepOrDefault, isFunction, isset } from '../utility';
 import { ClassConstructor  } from '../decorators';
 import { mapperMetadataStore } from '../store';
 import { MapperMetadata } from '../interfaces';

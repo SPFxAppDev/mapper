@@ -15,23 +15,19 @@
     "url": "git+https://github.com/SPFxAppDev/mapper.git"
   },
   "keywords": [
-    "jslogger",
-    "console logger",
-    "logger",
-    "javascript logging",
-    "logging",
-    "console.log",
-    "typescript logger"
+    "mapper",
+    "automapper",
+    "transformer",
+    "plainobject-convertor",
+    "sharepoint mapper",
+    "sharepoint class convertor"
   ],
   "author": "Seryoga",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SPFxAppDev/mapper/issues"
   },
-  "homepage": "https://github.com/SPFxAppDev/console-logger#readme",
-  "dependencies": {
-    "@spfxappdev/utility": "^1.2.1"
-  },
+  "homepage": "https://github.com/SPFxAppDev/mapper/issues#readme",
   "devDependencies": {
     "typescript": "^4.3.5"
   }

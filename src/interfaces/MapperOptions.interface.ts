@@ -16,12 +16,12 @@ export interface MapperOptions {
     convertFunc?: ConvertFunction;
   
     /**
-     * Expose this property only when transforming from plain to class instance.
+     * Convert this property only when converting from plain to class instance.
      */
     toClassOnly?: boolean;
   
     /**
-     * Expose this property only when transforming from class instance to plain object.
+     * Convert this property only when converting from class instance to plain object.
      */
     toPlainOnly?: boolean;
 }
