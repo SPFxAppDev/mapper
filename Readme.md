@@ -9,3 +9,6 @@ It is actually designed for the SharePoint and OData REST api's, but can be used
 ## Examples
 
 In the `exmaples` folder of this repository you can find some examples
+
+
+![normal vs. mapper decorators](./assets/mapperVsNormal.png)
