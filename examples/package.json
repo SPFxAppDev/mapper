@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preserve": "rmdir /s /q .\\.parcel-cache",
     "serve": "parcel serve src/index.html"
   },
   "author": "",
