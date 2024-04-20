@@ -1,5 +1,7 @@
 # @spfxappdev/mapper
 
+![npm](https://img.shields.io/npm/v/@spfxappdev/mapper) ![npm bundle size](https://img.shields.io/bundlephobia/min/@spfxappdev/mapper) ![npm](https://img.shields.io/npm/dm/@spfxappdev/mapper)
+
 The @spfxappdev/mapper library is a powerful npm package that simplifies the conversion of plain JavaScript objects into class instances and vice versa.
 It is similar to the "Auto-Mapper" libraries in other languages. It is actually designed for the SharePoint (SPFx) development and OData REST API's, but can be used for any other project as well.
 You can use this package for both the frontend and the backend.
