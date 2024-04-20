@@ -5,10 +5,11 @@ export interface MapperOptions {
    * Name or path for/from the property. If not specified, the property name of the class is used!
    * When using the toClass method, the property is read from the plain object and set to the class object.
    * When using the toPlain method, the property value of the class object is converted into the specified name or path of the plain object
+   * IMPORTANT: If the name of your property contains a dot, you must set the mapper option resolvePath to false.
    * @example 'MyPropArray.0.id' ==> gets or sets the property "id" from the first array value
    * @example 'MyPropObj.user.id' ==> gets or sets the property "id" from the object "MyPropObj" and the nested object "user"
    * @example 'myProp' ==> gets or sets the value from the property "myProp"
-   * @example 'odata.count' ==> gets or sets the value of the property with the name "odata.count". IMPORTANT: If the name of your property contains a dot, you must set the mapper option resolvePath to false.
+   * @example 'odata.count' ==> gets or sets the value of the property with the name "odata.count".
    */
   nameOrPath?: string;
 
